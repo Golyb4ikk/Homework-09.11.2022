@@ -1,13 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-      int weightBanana1= 80;
-      int weightMilk100=105;
-      int weightPlombir=100;
-      int weightEgg=70;
-
-      int allWeight=weightBanana1*5 +weightMilk100*2+weightPlombir*2+weightEgg*4;
-      int allWeightKg=allWeight/1000;
-        System.out.println("Вес завтрака "+allWeight+" ,а в киллограммах "+allWeightKg);
+      int weight=7000;
+      int oneDay1=250;
+      int oneDay2=500;
+      int Calculation= weight/oneDay1;
+        int Calculation1= weight/oneDay2;
+        int mediumCalc=(Calculation+Calculation1)/2;
+        System.out.println(Calculation+","+Calculation1+","+mediumCalc);
 
 
 
