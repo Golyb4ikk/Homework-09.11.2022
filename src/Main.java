@@ -16,7 +16,7 @@ public class Main {
         int denisDifference=denisNextYear-denisYear;
         int mashaDifference=mashaNextYear-MashaYear;
 
-        System.out.println(krisNext+","+denisNext+","+mashaNext+","+krisDifference+","+denisDifference+","+mashaDifference);
+        System.out.println(krisNext+"."+denisNext+","+mashaNext+","+krisDifference+","+denisDifference+","+mashaDifference);
 
 
 
