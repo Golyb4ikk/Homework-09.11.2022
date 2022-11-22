@@ -1,12 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-       int whitePaint;
-       int brownPaint;
-       int allPaint=120;
-       int Class=120/(2+4);
-       whitePaint=120/(2+4)*2;
-       brownPaint=120/(2+4)*4;
-        System.out.println("В школе,где "+Class+" классов,нужно "+whitePaint+" банок белой краски и "+brownPaint+" банок коричневой краски");
+      int weightBanana1= 80;
+      int weightMilk100=105;
+      int weightPlombir=100;
+      int weightEgg=70;
+
+      int allWeight=weightBanana1*5 +weightMilk100*2+weightPlombir*2+weightEgg*4;
+      int allWeightKg=allWeight/1000;
+        System.out.println("Вес завтрака "+allWeight+" ,а в киллограммах "+allWeightKg);
+
+
 
 
     }
